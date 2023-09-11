@@ -1,0 +1,203 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+body {
+    background-color: pink;
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+
+}
+nav ul {
+    background-color: pink;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    list-style-type: none;
+    width: 100%;
+    padding: 15px;
+   /* border: 8px solid lightgrey; */
+    /*position: fixed;
+    display: flex; */
+    
+}
+
+
+nav {
+    display: block;
+    color: white;
+    border-bottom:20px;
+ 
+}
+
+nav a {
+    color:cornflowerblue;
+    text-decoration: none;
+}
+nav a:hover{
+    color:white;
+}
+
+.hero-image {
+    background-image:  url(../images/sdbg.jpg);
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.hero-text {
+    color: white;
+    text-align:start;
+   position: absolute;
+    /* position: absolute; */
+    top:50%;
+   left:50%; 
+   transform: translate(-100%, -200%);
+    /*transform:translate(-50%, -50%);  */
+
+}
+.boat-wrap {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: auto;
+}
+#boat-img1 {
+    width: 100%;
+    height: 100%;
+}
+#sail {
+    width:50%;
+    height:50%;
+}
+#boat-img2 {
+    width:100%;
+    height:100%;
+}
+/* #research-img {
+   
+    
+    grid-template-columns: repeat(1, 1fr);
+
+}
+*/
+.research-wrap {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: auto;
+}
+
+/*
+.research_img1 {
+    grid-column: 1;
+    grid-row:1;
+
+}
+*/
+.research_img2 {
+    width: 75%;
+    height: 75%;
+}
+
+#main {
+    width: 75%;
+    float: left;
+    height: 100%;
+    padding:left:20px;
+    padding:top:20px;
+
+}
+#side {
+    width: 20%;
+    float: right;
+    height:100%;
+    padding: 20px;
+    text-align: right;
+}
+.nav-side {
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+#profile-image {
+    width:125px;
+    border-radius: 50%;
+    border: 2px solid darkgrey;
+
+
+}
+#profile{
+    text-align: center;
+}
+.side-article ul {
+    list-style-type:none;
+    padding-left:0px;
+}
+#profile h2{
+    display: inline;
+}
+#profile-details {
+    margin: right 30px;
+    text-align:center;
+
+}
+.side-article, .main-articles {
+    padding: 10px;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+.side-article {
+    background-color: lightgrey;
+    text-align:center;
+
+}
+.main-articles {
+    background-color: lightgrey;
+    margin-left: 20px;
+    margin-top:10px;
+
+
+}
+form {
+    margin-top:20px;
+}
+textarea, input {
+    background-color:lightgrey;
+    border-radius:5px;
+    padding:5px;
+    margin:5px;
+
+}
+.pub-link {
+    text-align:left;
+}
+.side-article h1{
+    margin-bottom: 20px;
+}
+footer {
+    bottom:0px;
+    width:100%;
+    background-color: pink;
+    height: 5vh;
+    margin-top:0px;
+}
+footer div{
+    text-align:center;
+    color:white;
+}
+main{
+    overflow: auto;
+}
+
+#eisley {
+    border-radius:50%;
+    border:solid black;
+
+}
